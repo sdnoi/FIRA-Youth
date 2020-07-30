@@ -1,7 +1,7 @@
 #include <cstdio>
 using namespace std;
 //此题有后效性，在举例动归需要后效性时可用此例子说明不能用动态规划
-//增加一维，二维用01背包
+//增加一维后变成二维，可以用01背包来做
 const int N=10000;
 int p=1,m;
 long long myMax=0;
